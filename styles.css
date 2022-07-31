@@ -68,7 +68,7 @@ Global Styles
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
+  background: var(--clr-grey-9);
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -163,7 +163,7 @@ Sidebar
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-3);
   transition: var(--transition);
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
@@ -193,7 +193,7 @@ Sidebar
   font-size: 1.75rem;
   background: transparent;
   border-color: transparent;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-2);
   transition: var(--transition);
   cursor: pointer;
   color: var(--clr-red-dark);
@@ -217,7 +217,7 @@ Sidebar
 }
 .links a:hover {
   background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-1);
   padding-left: 1.75rem;
 }
 .social-icons {
@@ -228,7 +228,7 @@ Sidebar
 .social-icons a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-8);
   transition: var(--transition);
 }
 .social-icons a:hover {
@@ -241,7 +241,7 @@ Sidebar
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--clr-white);
+  background: var(--clr-grey-2);
   display: grid;
   grid-template-rows: auto 1fr auto;
   row-gap: 1rem;
@@ -249,6 +249,7 @@ Sidebar
   transition: var(--transition);
   /* transform: translate(-100%); */
 }
+/* .show-sidebar es la class que se debe agregar o quitar de links */
 .show-sidebar {
   transform: translate(0);
 }
