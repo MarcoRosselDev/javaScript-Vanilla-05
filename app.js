@@ -1,5 +1,6 @@
 const button = document.querySelector('.sidebar-toggle');
 const link = document.querySelector('.sidebar');
+const closeBtn = document.querySelector('.close-btn');
 
 button.addEventListener('click', function() {
     // if(link.classList.contains('show-sidebar')) {
@@ -9,3 +10,7 @@ button.addEventListener('click', function() {
     // }
     link.classList.toggle('show-sidebar');
 });
+
+closeBtn.addEventListener('click', function() {
+    link.classList.remove('show-sidebar');
+})
