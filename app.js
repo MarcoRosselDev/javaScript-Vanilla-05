@@ -1,5 +1,5 @@
-const link = document.querySelector('.links');
 const button = document.querySelector('.sidebar-toggle');
+const link = document.querySelector('.sidebar');
 
 button.addEventListener('click', function() {
     if(link.classList.contains('show-sidebar')) {
@@ -8,4 +8,4 @@ button.addEventListener('click', function() {
         link.classList.add('show-sidebar')
     }
     // link.classList.toggle('show-sidebar');
-})
+});

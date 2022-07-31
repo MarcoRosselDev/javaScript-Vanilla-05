@@ -247,9 +247,9 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  transform: translate(-100%);
 }
-/* .show-sidebar es la class que se debe agregar o quitar de links */
+/* .show-sidebar es la class que se debe agregar o quitar de aside */
 .show-sidebar {
   transform: translate(0);
 }
